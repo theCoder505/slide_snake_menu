@@ -29,6 +29,10 @@
     
     #snakeHolder{
         max-width: 95vw;
+        padding: 5px 25px;
+    }
+    #snakeMain{
+        margin-top: 20px;
     }
 
     .logo {
@@ -50,8 +54,12 @@
     }
 
     .snakeLast {
-        width: 155px;
+        width: 170px;
         height: 95px;
+    }
+
+    .toolText, .toolTextFirst {
+        padding: 5px;
     }
 
     .txt_holding_div {
@@ -107,12 +115,16 @@
     }
 
 
+    .buttonOne {
+        margin-left: 23px;
+    }
+
     .buttonTwo {
-        margin-left: 250px;
+        margin-left: 245px;
     }
 
     .buttonLast {
-        margin-left: 230px;
+        margin-left: 245px;
     }
 
 }
