@@ -1,0 +1,118 @@
+@media screen and (max-width: 1030px) {
+    #snakeHolder {
+        max-width: 60vw;
+    }
+
+    .buttonTwo {
+        margin-right: -210px;
+    }
+
+    .buttonLast {
+        margin-right: -165px;
+    }
+
+    .logo {
+        display: block;
+        margin-left: 7vw;
+        margin-top: 3vh;
+        position: absolute;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    
+    #snakeHolder{
+        max-width: 95vw;
+    }
+
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-top: 3vh;
+        position: relative;
+        margin: 0px auto;
+    }
+
+    .logoImg {
+        width: 180px;
+        margin-left: 80px;
+    }
+
+    .snakeImg {
+        width: 240px;
+        height: 185px;
+    }
+
+    .snakeLast {
+        width: 155px;
+        height: 95px;
+    }
+
+    .txt_holding_div {
+        font-size: 10px;
+    }
+
+    .numberTag{
+        font-size: 20px;
+    }
+
+    .txt_div_one {
+        margin-left: 135px;
+        margin-top: 35px;
+    }
+
+    .txt_div_two {
+        margin-left: 55px;
+       margin-top: -60px;
+    }
+
+    .txt_div_three {
+        margin-left: 125px;
+        margin-top: 40px;
+    }
+
+    .txt_div_four {
+        margin-top: 30px;
+        margin-left: 55px;
+    }
+
+    .txt_div_five {
+        margin-top: 35px;
+        margin-left: 40px;
+    }
+
+    .txt_div_last {
+        margin-top: -65px;
+        margin-left: 160px;
+    }
+
+
+    .snakeparts.snakePartFirst{
+        margin-left: 55px;
+    }
+
+    .snakeparts.snakePartThird{
+        margin-left: 55px;
+    }
+
+    .snakeparts.snakePartFifth {
+        margin-top: -98px;
+        margin-left: 108px;
+    }
+
+
+    .buttonTwo {
+        margin-left: 250px;
+    }
+
+    .buttonLast {
+        margin-left: 230px;
+    }
+
+}

@@ -1,0 +1,163 @@
+
+/* ---------------------- animations -------------------  */
+
+
+.logoImg{
+    animation: logoApear 3s linear;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+
+.playBtn{
+    animation: fadein 2s linear;
+    opacity: 0;
+    animation-delay: 10.5s;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+.snakePartFirst{
+    animation: part1 1s linear;
+     opacity: 0;
+     animation-fill-mode: forwards;
+}
+.snakePartSecond{
+    animation: part2 1s linear;
+     opacity: 0;
+     animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+.snakePartThird{
+    animation: part2 1s linear;
+     opacity: 0;
+     animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+.snakePartFourth{
+    animation: part2 1s linear;
+     opacity: 0;
+     animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+.snakePartFifth{
+    animation: part2 1s linear;
+     opacity: 0;
+     animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+
+
+
+.txt_holding_div{
+    animation: textAnim 2s linear;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+
+.txt_div_one{
+    animation: textAnim 1s linear;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+}
+
+.txt_div_two{
+    animation: textAnim 1s linear;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+}
+
+.txt_div_three{
+    animation: textAnim 1s linear;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 7s;
+}
+
+.txt_div_four{
+    animation: textAnim 1s linear;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+}
+
+.txt_div_five{
+    animation: textAnim 1s linear;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+}
+
+.txt_div_last{
+    animation: textAnim 1s linear;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+}
+
+
+
+
+
+
+
+
+@keyframes part1{
+    from{
+        opacity: 0;
+        margin-top: -50px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+
+@keyframes part2{
+    from{
+        opacity: 0;
+        margin-top: -250px;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+@keyframes textAnim{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+@keyframes logoApear{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+@keyframes fadein {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}

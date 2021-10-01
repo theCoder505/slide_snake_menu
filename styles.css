@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: rgb(224, 116, 116);
+} */
+
+#snakeMain{
+    margin-top: 40px;
+}
+
+#snakeHolder{
+    max-width: 40vw;
+    padding: 25px;
+    margin: 0px auto;
+    border: 2px solid whitesmoke;
+}
+
+.logoImg {
+    width: 110px;
+}
+
+.logo {
+    display: inline-block;
+    margin-left: 23vw;
+    margin-top: 3vh;
+    position: absolute;
+}
+
+
+
+
+
+
+
+.snakeparts{
+    position: relative;
+}
+
+.snakeImg {
+    width: 380px;
+    height: 190px;
+}
+
+.snakeLast {
+    width: 205px;
+    height: 100px;
+}
+
+.snakeparts.snakePartFirst {
+    margin-left: 80px;
+    z-index: 15;
+}
+
+.snakeparts.snakePartSecond {
+    margin-top: -83px;
+    z-index: 10;
+}
+
+.snakeparts.snakePartThird {
+    margin-left: 80px;
+    margin-top: -90px;
+    z-index: 7;
+}
+
+.snakeparts.snakePartFourth {
+    margin-top: -90px;
+    z-index: 5;
+}
+
+.snakeparts.snakePartFifth {
+    margin-top: -100px;
+    margin-left: 185px;
+    z-index: 2;
+}
+
+
+/* ---------------------------------------------------------  */
+
+.numberTag{
+    color: #86c34b;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.playBtn {
+    width: 75px;
+}
+
+.playBtnImg {
+    width: 100%;
+    height: 100%;
+}
+
+
+.buttonOne {
+    position: absolute;
+    margin-left: 53px;
+    z-index: 20;
+    margin-top: 13px;
+}
+
+.buttonTwo {
+    float: right;
+    position: absolute;
+    margin-top: -130px;
+    z-index: 20;
+    margin-left: 400px;
+}
+
+.buttonThree {
+    position: absolute;
+    margin-left: -20px;
+    z-index: 20;
+    margin-top: -37px;
+}
+
+
+.buttonLast {
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 355px;
+    z-index: 20;
+}
+
+
+.tooltip{
+    width: 90px;
+}
+
+.toolText, .toolTextFirst {
+    color: white;
+    background: #191749;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -16px;
+    z-index: 20;
+    position: relative;
+    border: 2px solid white;
+}
+
+/* .toolText{
+    border: 2px solid white;
+} */
+
+.toolArrow {
+    width: 25px;
+    height: 20px;
+    background: #191749;
+    transform: rotate(45deg);
+    margin: 0px auto;
+    border: 2px solid white;
+}
+
+.tooltipFirst {
+    width: 100px;
+    margin-left: -12px;
+    position: absolute;
+    margin-top: -65px;
+}
+
+.toolArrowFirst {
+    width: 25px;
+    height: 20px;
+    background: #191749;
+    transform: rotate(45deg);
+    margin: 0px auto;
+    margin-top: -13px;
+    border: 2px solid white;
+}
+
+
+
+.txt_holding_div{
+    max-width: 200px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-areas: 'number text';
+}
+
+.numberTag{grid-area: number; margin-right: 10px; }
+
+.mainTxt {
+    grid-area: text;
+    color: #323693;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.txt_div_one {
+    margin-top: 30px;
+    position: absolute;
+    z-index: 20;
+    margin-left: 165px;
+}
+
+.txt_div_two {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -70px;
+    z-index: 20;
+}
+
+.txt_div_three {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 35px;
+    z-index: 20;
+}
+
+.txt_div_four {
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 80px;
+    z-index: 20;
+}
+
+.txt_div_five {
+    position: absolute;
+    margin-top: 30px;
+    z-index: 20;
+    margin-left: 95px;
+}
+
+.txt_div_last {
+    margin-top: -70px;
+    position: absolute;
+    z-index: 20;
+    margin-left: 260px;
+}
+
+.txt_div_one .mainTxt,
+.txt_div_two .mainTxt,
+.txt_div_three .mainTxt,
+.txt_div_four .mainTxt,
+.txt_div_five .mainTxt,
+.txt_div_last .mainTxt{
+    color: white;
+}
+
+
+
+
+.tooltip, .tooltipFirst{
+    display: none;
+    transition: all 1s;
+}
+
+.playBtn:hover .tooltip{
+    display: block;
+}
+
+#firstBtnHover:hover .tooltipFirst{
+    display: block;
+}
+
+
