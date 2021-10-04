@@ -13,7 +13,7 @@
 .playBtn{
     animation: fadein 2s linear;
     opacity: 0;
-    animation-delay: 10.5s;
+    animation-delay: 6.5s;
     animation-fill-mode: forwards;
 }
 
@@ -21,84 +21,84 @@
 
 
 .snakePartFirst{
-    animation: part1 1s linear;
+    animation: part1 0.6s linear;
      opacity: 0;
      animation-fill-mode: forwards;
 }
 .snakePartSecond{
-    animation: part2 1s linear;
+    animation: part2 0.6s linear;
      opacity: 0;
      animation-fill-mode: forwards;
-    animation-delay: 1s;
+    animation-delay: 0.6s;
 }
 .snakePartThird{
-    animation: part2 1s linear;
+    animation: part2 0.6s linear;
      opacity: 0;
      animation-fill-mode: forwards;
-    animation-delay: 2s;
+    animation-delay: 1.2s;
 }
 .snakePartFourth{
-    animation: part2 1s linear;
+    animation: part2 0.6s linear;
      opacity: 0;
      animation-fill-mode: forwards;
-    animation-delay: 3s;
+    animation-delay: 1.8s;
 }
 .snakePartFifth{
-    animation: part2 1s linear;
+    animation: part2 0.6s linear;
      opacity: 0;
      animation-fill-mode: forwards;
-    animation-delay: 4s;
+    animation-delay: 2.4s;
 }
 
 
 
-.txt_holding_div{
+/* .txt_holding_div{
     animation: textAnim 2s linear;
     opacity: 0;
     animation-fill-mode: forwards;
     animation-delay: 4s;
-}
+} */
 
 .txt_div_one{
-    animation: textAnim 1s linear;
+    animation: textAnim 0.7s linear;
     opacity: 0;
     animation-fill-mode: forwards;
-    animation-delay: 5s;
+    animation-delay: 2.6s;
 }
 
 .txt_div_two{
-    animation: textAnim 1s linear;
+    animation: textAnim 0.7s linear;
     opacity: 0;
     animation-fill-mode: forwards;
-    animation-delay: 6s;
+    animation-delay: 3.3s;
 }
 
 .txt_div_three{
-    animation: textAnim 1s linear;
+    animation: textAnim 0.7s linear;
     opacity: 0;
     animation-fill-mode: forwards;
-    animation-delay: 7s;
+    animation-delay: 4s;
 }
 
 .txt_div_four{
-    animation: textAnim 1s linear;
+    animation: textAnim 0.7s linear;
     opacity: 0;
     animation-fill-mode: forwards;
-    animation-delay: 8s;
+    animation-delay: 4.7s;
 }
 
 .txt_div_five{
-    animation: textAnim 1s linear;
+    animation: textAnim 0.7s linear;
     opacity: 0;
     animation-fill-mode: forwards;
-    animation-delay: 9s;
+    animation-delay: 5.4s;
 }
 
 .txt_div_last{
-    animation: textAnim 1s linear;
+    animation: textAnim 0.7s linear;
     opacity: 0;
     animation-fill-mode: forwards;
-    animation-delay: 10s;
+    animation-delay: 6.1s;
 }
 
 

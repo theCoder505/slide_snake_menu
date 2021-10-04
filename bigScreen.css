@@ -1,0 +1,142 @@
+
+@media screen and (min-width: 1440px){
+
+    .logo {
+        display: inline-block;
+        margin-left: 20vw;
+        margin-top: 3vh;
+        position: absolute;
+    }
+    
+    .snakeImg {
+        width: 27vw;
+        height: 30vh;
+    }
+    
+    
+    .snakeparts.snakePartSecond {
+        margin-top: -13vh;
+        z-index: 10;
+    }
+    
+    .snakeparts.snakePartFirst {
+        margin-left: 6vw;
+        z-index: 15;
+    }
+    
+    .playBtn {
+        width: 6vw;
+    }
+    
+    .buttonOne {
+        position: absolute;
+        margin-left: 4vw;
+        z-index: 30;
+        margin-top: 2.5vh;
+    }
+    
+    .buttonTwo {
+        float: right;
+        position: absolute;
+        margin-top: -21vh;
+        z-index: 30;
+        margin-left: 28vw;
+    }
+    
+    .buttonThree {
+        position: absolute;
+        margin-left: -20px;
+        z-index: 30;
+        margin-top: -8vh;
+    }
+    
+    .buttonLast {
+        position: absolute;
+        margin-top: -15vh;
+        margin-left: 28vw;
+        z-index: 30;
+    }
+    
+    .snakeparts.snakePartThird {
+        margin-left: 6vw;
+        margin-top: -15vh;
+        z-index: 7;
+    }
+    
+    .snakeparts.snakePartFourth {
+        margin-top: -14vh;
+        z-index: 5;
+    }
+    
+    
+    .snakeLast {
+        width: 18vw;
+        height: 15vh;
+    }
+    
+    .snakeparts.snakePartFifth {
+        margin-top: -16vh;
+        margin-left: 13vw;
+        z-index: 2;
+    }
+    
+    
+    
+    
+    .txt_div_one {
+        margin-top: 5vh;
+        position: absolute;
+        z-index: 20;
+        margin-left: 16vw;
+    }
+    
+    .txt_div_two {
+        position: absolute;
+        margin-left: 10vw;
+        margin-top: -10vh;
+        z-index: 20;
+    }
+    
+    .txt_div_three {
+        position: absolute;
+        margin-left: 13vw;
+        margin-top: 6vh;
+        z-index: 20;
+    }
+    
+    .txt_div_four {
+        position: absolute;
+        margin-top: 5vh;
+        margin-left: 12vw;
+        z-index: 20;
+    }
+    
+    .txt_div_five {
+        position: absolute;
+        margin-top: 5vh;
+        z-index: 20;
+        margin-left: 5vw;
+    }
+    
+    .txt_div_last {
+        margin-top: -11vh;
+        position: absolute;
+        z-index: 20;
+        margin-left: 19vw;
+    }
+    
+    .txt_holding_div {
+        max-width: 20vw;
+    }
+    
+    .tooltip {
+        width: 6vw;
+        text-align: center;
+    }
+    
+    #snakeMain {
+        font-size: 0.9em;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+}

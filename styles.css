@@ -60,8 +60,8 @@
 }
 
 .snakeparts.snakePartThird {
-    margin-left: 80px;
-    margin-top: -90px;
+    margin-left: 85px;
+    margin-top: -95px;
     z-index: 7;
 }
 
@@ -128,7 +128,8 @@
 
 
 .tooltip{
-    max-width: 90px;
+    width: 90px;
+    text-align: center;
 }
 
 .toolText, .toolTextFirst {
@@ -160,6 +161,7 @@
     margin-left: -12px;
     position: absolute;
     margin-top: -65px;
+    text-align: center;
 }
 
 .toolArrowFirst {

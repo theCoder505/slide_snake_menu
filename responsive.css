@@ -1,3 +1,6 @@
+
+
+
 @media screen and (max-width: 1030px) {
     #snakeHolder {
         max-width: 60vw;
@@ -25,7 +28,7 @@
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     
     #snakeHolder{
         max-width: 95vw;
@@ -46,6 +49,11 @@
     .logoImg {
         width: 180px;
         margin-left: 80px;
+    }
+
+    .tooltip{
+        width: auto;
+        max-width: 90px;
     }
 
     .snakeImg {
